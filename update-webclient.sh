@@ -5,4 +5,4 @@ wget https://download3.vmware.com/software/vmw-tools/vsphere_html_client/install
 chmod +x installer-$VER.0.bsx   # sets execute permissions on installer file
 ./installer-$VER.0.bsx   # runs the installer file
 /etc/init.d/vsphere-client start  # starts the vSphere Web Client
-rm ./installer-$VER.0.bsx
+rm ./installer-$VER.0.bsx   # removes the installer file
